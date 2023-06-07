@@ -15,16 +15,16 @@ public abstract class Dato<T> {
         this.objetoDato = objetoDato;
     }
 
-    public abstract Dato<T> ordenarBurbuja(boolean ascendentemente);
-    
-    public abstract T ordenarSeleccion(boolean ascendentemente);
-       
-    public abstract T ordenarInsercion(boolean ascendentemente);
+    // public abstract Dato<T> ordenarBurbuja(boolean ascendentemente);
+    public abstract Dato<T> ordenarBurbuja(boolean ascendentemente, boolean info);
+
+    public abstract Dato<T> ordenarSeleccion(boolean ascendentemente);
+
+    public abstract Dato<T> ordenarInsercion(boolean ascendentemente);
 
     @Override
     public String toString() {
         return objetoDato.toString();
     }
-    
-    
+
 }

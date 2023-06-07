@@ -9,24 +9,28 @@ package ec.edu.ups.est.estructurau1.models;
  * @author pablo
  */
 public class ModeloCadenaSinEspacios extends Dato<String> {
-      
-     public ModeloCadenaSinEspacios(String objetoDato) {
+
+    public ModeloCadenaSinEspacios(String objetoDato) {
         super(objetoDato);
 
     }
+
     @Override
-    public Dato<String> ordenarBurbuja(boolean ascendentemente) {
+    public Dato<String> ordenarBurbuja(boolean ascendentemente, boolean info) {
         // Implementación del algoritmo de ordenamiento Burbuja para cadena sin espacios
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from
+                                                                       // nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public String ordenarSeleccion(boolean ascendentemente) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public Dato<String> ordenarSeleccion(boolean ascendentemente) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from
+                                                                       // nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public String ordenarInsercion(boolean ascendentemente) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public Dato<String> ordenarInsercion(boolean ascendentemente) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from
+                                                                       // nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
