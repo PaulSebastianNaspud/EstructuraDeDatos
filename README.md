@@ -1,3 +1,3 @@
 # EstructuraDeDatos
-Nombre Paul Naspud
+Nombre Paul Naspud                                      
 Estructura de datos, proyeto
